@@ -24,4 +24,4 @@ Exam preparation: <b>8</b> hours<br>
 Exam: <b>6</b> hours<br>
 <br>
 
-![images](https://user-images.githubusercontent.com/33524282/51308368-a0d92c00-1a4a-11e9-9794-83e3355bdec9.jpg)
+![css3_and_html5_logos_and_wordmarks svg](https://user-images.githubusercontent.com/33524282/51308874-d29ec280-1a4b-11e9-92f9-23118224ab09.png)
