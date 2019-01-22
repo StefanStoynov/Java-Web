@@ -71,7 +71,7 @@ public class Main {
             String[]nameArray = nameUndecoded.split("\\s+");
             byte[] nameAsByte = Base64.getDecoder().decode(nameArray[1]);
             String name = new String(nameAsByte);
-            result.append(String.format("Greetings %s! You have successfully created %s with quantity – %s, price – %s.", name,parsed.get(0),parsed.get(1),parsed.get(2)));
+            result.append(String.format("Greetings %s! You have successfully created %s with quantity – %s, price – %s.",name,parsed.get(1),parsed.get(3),parsed.get(5)));
         }
 
         System.out.println(result.toString());
