@@ -1,16 +1,11 @@
-package chushka.domain.models;
+package chushka.domain.models.view;
 
-public class ProductServiceModel {
-    private String id;
+public class ProductDetailsViewModel {
     private String name;
     private String description;
     private String type;
 
-    public ProductServiceModel() {
-    }
-
-    public String getId() {
-        return this.id;
+    public ProductDetailsViewModel() {
     }
 
     public String getName() {
@@ -23,10 +18,6 @@ public class ProductServiceModel {
 
     public String getType() {
         return this.type;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public void setName(String name) {
