@@ -21,4 +21,11 @@ public class TubeServiceImpl implements TubeService {
     public void saveTube(TubeServiceModel tubeServiceModel) {
         this.tubeRepository.save(this.modelMapper.map(tubeServiceModel, Tube.class));
     }
+
+    @Override
+    public TubeServiceModel findTybeByName(String name) {
+       Tube tube= this.tubeRepository.findByName(name).orElse(null);
+
+       return this.modelMapper.map(tube, TubeServiceModel.class);
+    }
 }
