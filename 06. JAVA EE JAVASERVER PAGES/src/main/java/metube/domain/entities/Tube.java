@@ -18,14 +18,17 @@ public class Tube extends BaseEntity {
     public String getName() {
         return this.name;
     }
+
     @Column(name = "description")
     public String getDescription() {
         return this.description;
     }
+
     @Column(name = "you_tube_link")
     public String getYouTubeLink() {
         return this.youTubeLink;
     }
+
     @Column(name = "uploader")
     public String getUploader() {
         return this.uploader;

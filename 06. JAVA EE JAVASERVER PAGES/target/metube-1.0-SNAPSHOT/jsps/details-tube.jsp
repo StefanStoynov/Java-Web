@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col col-md-12 d-flex justify-content-center">
                     <h1>
-                        <%=tdvm.getName()%>%>
+                        <%=tdvm.getName()%>
                     </h1>
                 </div>
             </div>
@@ -32,6 +32,11 @@
                 </div>
                 <div class="class col col-md-6 d-flex justify-content-center">
                     <p><%=tdvm.getUploader()%></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="class col col-md-12 d-flex justify-content-center">
+                    <a href="/">Back to homepage</a>
                 </div>
             </div>
         </div>
