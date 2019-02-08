@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="![javaee1](https://user-images.githubusercontent.com/33524282/52499436-18325380-2be4-11e9-92de-8db612be6a02.png)"/></div>
+<img align="center" src ="![javaee1](https://user-images.githubusercontent.com/33524282/52499436-18325380-2be4-11e9-92de-8db612be6a02.png)"/></div>
 <h1> Java-Web</h1>
 <h2>Course Overview:</h2>
 Lessons: <b>~40</b> hours (onsite)<br>
