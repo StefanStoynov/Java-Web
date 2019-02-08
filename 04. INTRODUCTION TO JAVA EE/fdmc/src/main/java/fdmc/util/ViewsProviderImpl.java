@@ -1,4 +1,4 @@
-package chushka.util;
+package fdmc.util;
 
 import java.io.File;
 import java.io.IOException;

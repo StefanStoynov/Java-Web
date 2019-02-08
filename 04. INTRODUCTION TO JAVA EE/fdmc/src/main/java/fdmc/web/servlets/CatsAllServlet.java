@@ -1,7 +1,6 @@
 package fdmc.web.servlets;
 
 import fdmc.domain.entities.Cat;
-import fdmc.util.HtmlReader;
 import fdmc.util.ViewsProvider;
 
 import javax.inject.Inject;
@@ -11,10 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 @WebServlet("/cats/all")
 public class CatsAllServlet extends HttpServlet {
