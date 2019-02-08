@@ -6,7 +6,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 @Entity(name = "tubes")
-public class Tube extends BaseEntity{
+public class Tube extends BaseEntity {
 
     private String title;
     private String author;
@@ -17,18 +17,22 @@ public class Tube extends BaseEntity{
 
     public Tube() {
     }
+
     @Column(name = "title", nullable = false)
     public String getTitle() {
         return this.title;
     }
+
     @Column(name = "author", nullable = false)
     public String getAuthor() {
         return this.author;
     }
+
     @Column(name = "description", nullable = false)
     public String getDescription() {
         return this.description;
     }
+
     @Column(name = "you_tube_id", nullable = false)
     public String getYouTubeId() {
         return this.youTubeId;
@@ -38,6 +42,7 @@ public class Tube extends BaseEntity{
     public int getViews() {
         return this.views;
     }
+
     @ManyToOne(targetEntity = User.class)
     @JoinColumn(name = "uploader", referencedColumnName = "id")
     public User getUploader() {

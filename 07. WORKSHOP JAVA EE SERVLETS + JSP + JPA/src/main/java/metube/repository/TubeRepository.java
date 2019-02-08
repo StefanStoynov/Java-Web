@@ -2,6 +2,6 @@ package metube.repository;
 
 import metube.domain.entities.Tube;
 
-public interface TubeRepository extends GenericRepository <Tube, String>{
+public interface TubeRepository extends GenericRepository<Tube, String> {
 
 }

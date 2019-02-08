@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface GenericRepository<E, ID> {
 
-     E save(E entity);
+    E save(E entity);
 
-     List<E> findAll();
+    List<E> findAll();
 
-     E findById(ID id);
+    E findById(ID id);
 
-     long size();
+    long size();
 }

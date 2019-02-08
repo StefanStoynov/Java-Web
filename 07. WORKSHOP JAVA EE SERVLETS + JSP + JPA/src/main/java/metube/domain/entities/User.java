@@ -21,15 +21,16 @@ public class User extends BaseEntity {
         return this.username;
     }
 
-    @Column(name = "password" , nullable = false)
+    @Column(name = "password", nullable = false)
     public String getPassword() {
         return this.password;
     }
 
-    @Column(name = "email" , nullable = false, unique = true)
+    @Column(name = "email", nullable = false, unique = true)
     public String getEmail() {
         return this.email;
     }
+
     @OneToMany(targetEntity = Tube.class, mappedBy = "uploader")
     public List<Tube> getTubes() {
         return this.tubes;
