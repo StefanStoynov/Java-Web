@@ -6,18 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b4dfd75-ca75-43d2-9f48-c74947510166" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/util/ViewsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/util/ViewsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/util/ViewsProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/util/ViewsProviderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/web/servlets/CatsAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04. INTRODUCTION TO JAVA EE/fdmc/src/main/java/fdmc/web/servlets/CatsAllServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metube/domain/models/binding/TubeCreateBindingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metube/domain/models/binding/TubeCreateBindingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metube/domain/models/service/TubeServiceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metube/domain/models/service/TubeServiceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metube/repositories/TubeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metube/repositories/TubeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metube/services/TubeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metube/services/TubeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metube/web/filters/TubeCreateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metube/web/filters/TubeCreateFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b4dfd75-ca75-43d2-9f48-c74947510166" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,20 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/error-page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -250,8 +239,8 @@
         <option value="$PROJECT_DIR$/src/main/java/metube/web/filters/TubeInvalidFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/metube/domain/models/binding/TubeCreateBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/metube/web/filters/TubeCreateFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/error-page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -467,7 +456,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549651878214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549652027054" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -580,12 +569,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549445624780</updated>
-      <workItem from="1549445631966" duration="15331000" />
+      <workItem from="1549445631966" duration="15956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15331000" />
+    <option name="totallyTimeSpent" value="15956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -598,7 +587,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Console" weight="0.3289689" />
@@ -612,7 +601,7 @@
       <window_info anchor="bottom" id="Version Control" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -966,11 +948,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/error-page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>

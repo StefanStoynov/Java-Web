@@ -1,10 +1,11 @@
+<p style="centered">![javaee1](https://user-images.githubusercontent.com/33524282/52499436-18325380-2be4-11e9-92de-8db612be6a02.png)<p>
 <h1> Java-Web</h1>
 <h2>Course Overview:</h2>
 Lessons: <b>~40</b> hours (onsite)<br>
 Practical exercises (in class): <b>~40</b> hours<br>
 Exam preparation: <b>8</b> hours<br>
 Exam: <b>6</b> hours<br>
-Total: <b>~?</b> hours<br>
+
 <br>
 <h2>Java Web Development Basics</h2>
 1. Web Fundamentals Introduction: HTML & CSS<br>
@@ -24,4 +25,6 @@ Exam preparation: <b>8</b> hours<br>
 Exam: <b>6</b> hours<br>
 <br>
 
-![css3_and_html5_logos_and_wordmarks svg](https://user-images.githubusercontent.com/33524282/51308874-d29ec280-1a4b-11e9-92f9-23118224ab09.png)
+![c794859b3cd0bc2fb7c4847242db8be5](https://user-images.githubusercontent.com/33524282/52499489-38faa900-2be4-11e9-902e-3b6ea05be595.png)
+![img_44526](https://user-images.githubusercontent.com/33524282/52499506-41eb7a80-2be4-11e9-818d-9b8591442943.png)
+
