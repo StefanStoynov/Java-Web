@@ -1,4 +1,4 @@
-<p style="centered">![javaee1](https://user-images.githubusercontent.com/33524282/52499436-18325380-2be4-11e9-92de-8db612be6a02.png)<p>
+<div style="text-align:center"><img src ="![javaee1](https://user-images.githubusercontent.com/33524282/52499436-18325380-2be4-11e9-92de-8db612be6a02.png)"/></div>
 <h1> Java-Web</h1>
 <h2>Course Overview:</h2>
 Lessons: <b>~40</b> hours (onsite)<br>
@@ -28,3 +28,4 @@ Exam: <b>6</b> hours<br>
 ![c794859b3cd0bc2fb7c4847242db8be5](https://user-images.githubusercontent.com/33524282/52499489-38faa900-2be4-11e9-902e-3b6ea05be595.png)
 ![img_44526](https://user-images.githubusercontent.com/33524282/52499506-41eb7a80-2be4-11e9-818d-9b8591442943.png)
 
+<div style="text-align:center"><img src ="..." /></div>
