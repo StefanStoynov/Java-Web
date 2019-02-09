@@ -32,6 +32,13 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--dep for JSP-->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -43,6 +50,7 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.4.1.Final</version>
         </dependency>
+
         <!--Put .jar file in TomEE/lib/-->
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
