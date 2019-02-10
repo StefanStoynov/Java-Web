@@ -7,7 +7,7 @@
 <body>
 <div class="container-fluid">
     <header>
-        <c:import url="templates/navbar.jsp"/>
+        <c:import url="templates/navbar.jsp" />
     </header>
     <main>
         <hr class="my-3"/>
@@ -20,7 +20,7 @@
         <hr class="my-3"/>
     </main>
     <footer>
-        <c:import url="templates/footer.jsp"/>
+        <c:import url="templates/footer.jsp" />
     </footer>
 </div>
 </body>
