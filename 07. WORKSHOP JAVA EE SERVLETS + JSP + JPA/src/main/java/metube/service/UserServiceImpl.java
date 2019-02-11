@@ -3,8 +3,8 @@ package metube.service;
 import metube.domain.entities.User;
 import metube.domain.models.service.UserServiceModel;
 import metube.repository.UserRepository;
-import metube.util.ModelMapper;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.modelmapper.ModelMapper;
 
 import javax.inject.Inject;
 
