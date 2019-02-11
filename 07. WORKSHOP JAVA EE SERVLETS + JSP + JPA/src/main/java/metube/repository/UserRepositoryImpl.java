@@ -72,4 +72,21 @@ public class UserRepositoryImpl implements UserRepository {
         }
 
     }
+
+    @Override
+    public User findByUsername(String username) {
+        this.entityManager.getTransaction().begin();
+        User user;
+        try {
+            user = this.entityManager
+                    .createQuery("SELECT u FROM users u WHERE u.username = :username", User.class)
+                    .setParameter("username", username)
+                    .getSingleResult();
+            return user;
+        } catch (Exception e) {
+            return null;
+        } finally {
+            this.entityManager.getTransaction().commit();
+        }
+    }
 }

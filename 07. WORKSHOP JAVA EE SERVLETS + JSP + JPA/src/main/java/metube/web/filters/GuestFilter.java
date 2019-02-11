@@ -13,7 +13,7 @@ public class GuestFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
 
-        if (req.getSession().getAttribute("username") != null) {
+        if (req.getSession().getAttribute("username") == null) {
             resp.sendRedirect("/login");
             return;
         }
