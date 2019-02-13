@@ -28,7 +28,7 @@ public class ProfileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         UserProfileViewModel userProfileViewModel = this.modelMapper
                 .map(this.userService.findUserByUsername((String) req.getSession().getAttribute("username")), UserProfileViewModel.class);
-       
+
         req.setAttribute("model", userProfileViewModel);
         req.getRequestDispatcher("/jsp/profile.jsp").forward(req, resp);
     }

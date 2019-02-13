@@ -44,7 +44,7 @@
                                 <%= model.getTubes().get(i).getAuthor() %>
                             </td>
                             <td>
-                                <a href="/tube/details<%=model.getTubes().get(i).getId()%>">Details</a>
+                                <a href="/tube/details/<%=model.getTubes().get(i).getId()%>">Details</a>
                             </td>
                         </tr>
                     <% } %>

@@ -29,4 +29,15 @@ public class TubeServiceImpl implements TubeService {
         }
             return true;
     }
+
+    @Override
+    public TubeServiceModel findTubeById(String id) {
+        Tube tube = this.tubeRepository.findById(id);
+
+        if (tube == null){
+            throw new IllegalArgumentException();
+        }
+
+        return this.modelMapper.map(tube, TubeServiceModel.class);
+    }
 }

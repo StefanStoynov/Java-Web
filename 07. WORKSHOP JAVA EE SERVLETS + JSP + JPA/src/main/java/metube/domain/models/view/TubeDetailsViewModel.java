@@ -1,19 +1,14 @@
-package metube.domain.models.service;
+package metube.domain.models.view;
 
-public class TubeServiceModel {
-    private String id;
+public class TubeDetailsViewModel {
+
     private String title;
     private String author;
     private String description;
     private String youtubeId;
     private int views;
-    private UserServiceModel uploader;
 
-    public TubeServiceModel() {
-    }
-
-    public String getId() {
-        return this.id;
+    public TubeDetailsViewModel() {
     }
 
     public String getTitle() {
@@ -36,14 +31,6 @@ public class TubeServiceModel {
         return this.views;
     }
 
-    public UserServiceModel getUploader() {
-        return this.uploader;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public void setTitle(String title) {
         this.title = title;
     }
@@ -62,9 +49,5 @@ public class TubeServiceModel {
 
     public void setViews(int views) {
         this.views = views;
-    }
-
-    public void setUploader(UserServiceModel uploader) {
-        this.uploader = uploader;
     }
 }
