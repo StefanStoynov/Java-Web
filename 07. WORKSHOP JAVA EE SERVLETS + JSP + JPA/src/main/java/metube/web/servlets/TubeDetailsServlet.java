@@ -37,7 +37,7 @@ public class TubeDetailsServlet extends HttpServlet {
 
         this.tubeService.uploadTube(tubeServiceModel);
 
-        req.setAttribute("model", null);
+
         req.setAttribute("model", tubeDetailsViewModel);
         req.getRequestDispatcher("/jsp/details.jsp").forward(req, resp);
     }

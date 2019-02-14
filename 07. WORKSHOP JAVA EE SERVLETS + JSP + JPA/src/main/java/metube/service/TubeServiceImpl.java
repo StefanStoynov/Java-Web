@@ -24,17 +24,17 @@ public class TubeServiceImpl implements TubeService {
         tubeServiceModel.setUploader(this.userService.findUserByUsername(tubeServiceModel.getUploader().getUsername()));
         try {
             this.tubeRepository.save(this.modelMapper.map(tubeServiceModel, Tube.class));
-        }catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
-            return true;
+        return true;
     }
 
     @Override
     public TubeServiceModel findTubeById(String id) {
         Tube tube = this.tubeRepository.findById(id);
 
-        if (tube == null){
+        if (tube == null) {
             throw new IllegalArgumentException();
         }
 
