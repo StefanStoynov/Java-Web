@@ -1,11 +1,14 @@
 package fdmc.service;
 
 import fdmc.domain.entities.Cat;
+import fdmc.domain.models.service.AllCatsServiceModel;
 import fdmc.domain.models.service.CatServiceModel;
 import fdmc.repository.CatRepository;
 import org.modelmapper.ModelMapper;
 
 import javax.inject.Inject;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class CatServiceImpl implements CatService {
 
@@ -26,5 +29,14 @@ public class CatServiceImpl implements CatService {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public List<AllCatsServiceModel> findAll() {
+        return this.catRepository
+                .findAll()
+                .stream()
+                .map(c-> this.modelMapper.map(c, AllCatsServiceModel.class))
+                .collect(Collectors.toList());
     }
 }

@@ -1,7 +1,7 @@
 package fdmc.domain.models.binding;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class CatCreateBindingModel {
     private String name;
@@ -10,7 +10,7 @@ public class CatCreateBindingModel {
     private Integer age;
     private String gender;
     private BigDecimal price;
-    private LocalDate addedOn;
+    private Date addedOn;
     private boolean hasPassport;
 
     public CatCreateBindingModel() {
@@ -40,7 +40,7 @@ public class CatCreateBindingModel {
         return this.price;
     }
 
-    public LocalDate getAddedOn() {
+    public Date getAddedOn() {
         return this.addedOn;
     }
 
@@ -72,7 +72,7 @@ public class CatCreateBindingModel {
         this.price = price;
     }
 
-    public void setAddedOn(LocalDate addedOn) {
+    public void setAddedOn(Date addedOn) {
         this.addedOn = addedOn;
     }
 

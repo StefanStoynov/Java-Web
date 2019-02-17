@@ -14,9 +14,9 @@ import java.io.IOException;
 
 @Named
 @RequestScoped
-public class CreateCatBean {
+public class CreateCatBean  {
 
-    private  CatCreateBindingModel catCreateBindingModel;
+    private CatCreateBindingModel catCreateBindingModel;
     private ModelMapper modelMapper;
     private CatService catService;
 
@@ -38,10 +38,13 @@ public class CreateCatBean {
         this.catCreateBindingModel = catCreateBindingModel;
     }
 
-    public void CreateCat() throws IOException {
+    public void createCat() throws IOException {
         this.catService.saveCat(this.modelMapper.map(this.catCreateBindingModel, CatServiceModel.class));
 
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         externalContext.redirect("/");
     }
+
+
+
 }
