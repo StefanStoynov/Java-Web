@@ -14,17 +14,17 @@ import java.io.IOException;
 
 @Named
 @RequestScoped
-public class EmployeeRegisterBeen {
+public class EmployeeRegisterBean {
 
     private EmployeeRegisterBindingModel employeeRegisterBindingModel;
     private EmployeeService employeeService;
     private ModelMapper modelMapper;
 
-    public EmployeeRegisterBeen() {
+    public EmployeeRegisterBean() {
     }
 
     @Inject
-    public EmployeeRegisterBeen(EmployeeService employeeService, ModelMapper modelMapper) {
+    public EmployeeRegisterBean(EmployeeService employeeService, ModelMapper modelMapper) {
         this.employeeRegisterBindingModel = new EmployeeRegisterBindingModel();
         this.employeeService = employeeService;
         this.modelMapper = modelMapper;

@@ -6,6 +6,8 @@ import regapp.domain.models.service.EmployeeServiceModel;
 import regapp.repository.EmployeeRepository;
 
 import javax.inject.Inject;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -26,5 +28,14 @@ public class EmployeeServiceImpl implements EmployeeService {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public List<EmployeeServiceModel> findAllEmployees() {
+        return this.employeeRepository.findAll()
+                .stream()
+                .map(e-> this.modelMapper.map(e, EmployeeServiceModel.class))
+                .collect(Collectors.toList());
+
     }
 }
