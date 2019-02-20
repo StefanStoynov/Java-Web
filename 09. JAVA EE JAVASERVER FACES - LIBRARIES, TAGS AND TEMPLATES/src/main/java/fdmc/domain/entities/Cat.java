@@ -2,12 +2,15 @@ package fdmc.domain.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
-import java.time.LocalDate;
+import java.util.Date;
+
 
 @Entity(name = "cats")
 public class Cat extends BaseEntity {
@@ -18,7 +21,7 @@ public class Cat extends BaseEntity {
     private Integer age;
     private String gender;
     private BigDecimal price;
-    private LocalDate addedOn;
+    private Date addedOn;
     private boolean hasPassport;
 
     public Cat() {
@@ -60,7 +63,8 @@ public class Cat extends BaseEntity {
     }
 
     @Column(name = "added_on")
-    public LocalDate getAddedOn() {
+    @Temporal(TemporalType.DATE)
+    public Date getAddedOn() {
         return this.addedOn;
     }
 
@@ -93,7 +97,7 @@ public class Cat extends BaseEntity {
         this.price = price;
     }
 
-    public void setAddedOn(LocalDate addedOn) {
+    public void setAddedOn(Date addedOn) {
         this.addedOn = addedOn;
     }
 

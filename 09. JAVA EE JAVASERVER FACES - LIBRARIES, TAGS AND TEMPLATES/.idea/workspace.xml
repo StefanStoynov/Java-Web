@@ -7,26 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e0699cb-8274-4394-9320-c8f6d780d91a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/AllCatsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07. WORKSHOP JAVA EE SERVLETS + JSP + JPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07. WORKSHOP JAVA EE SERVLETS + JSP + JPA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/java/regapp/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/java/regapp/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/java/regapp/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/java/regapp/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/java/regapp/web/mbbeens/EmployeeRegisterBeen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/webapp/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/src/main/webapp/jsf/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/target/registerapp-1.0-SNAPSHOT/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../08. JAVA EE JAVASERVER FACES/target/registerapp-1.0-SNAPSHOT/jsf/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/025cae42-245d-4d33-8afe-a50c326367f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/025cae42-245d-4d33-8afe-a50c326367f9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/templates/nav-bar.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/templates/nav-bar.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/templates/footer.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/templates/footer.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/templates/nav-bar.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/templates/nav-bar.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/cat-create.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,91 +46,49 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="fdmcv2_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="fdmcv2_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="cats: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="119" column="52" lean-forward="true" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+            <state relative-caret-position="226">
+              <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/AllCatsBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="748">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="192">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,35 +99,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/AllCatsServiceModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -183,20 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/service/CatServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="447">
               <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/service/CatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,33 +151,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/view/AllCatsViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
                 <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/fdmc/config/ApplicationBeenConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/BaseEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/repository/GenericRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/repository/CatRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/repository/CatRepositoryImpl.java" />
@@ -279,19 +205,21 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/nav-bar.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/create-cat.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/templates/all-cats.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/AllCatsServiceModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/service/CatServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/service/CatService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/view/AllCatsViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/AllCatsBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/AllCatsServiceModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/view/AllCatsViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/ValidatorBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" />
       </list>
     </option>
   </component>
@@ -323,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -499,13 +426,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550426398979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550679428159" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -624,12 +552,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550320110477</updated>
-      <workItem from="1550320112414" duration="24034000" />
+      <workItem from="1550320112414" duration="25034000" />
+      <workItem from="1550504823998" duration="5286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24034000" />
+    <option name="totallyTimeSpent" value="30320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -641,10 +570,9 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1913767" />
       <window_info id="Designer" order="7" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="2" />
@@ -656,15 +584,16 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3289689" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="JSF" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.118003026" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.15128593" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="CDI" order="6" />
@@ -712,20 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/validation/constraints/DecimalMin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -759,61 +674,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/test.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/test.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/footer.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -831,20 +698,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/025cae42-245d-4d33-8afe-a50c326367f9/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://025cae42-245d-4d33-8afe-a50c326367f9/schema/fdmcv2_db/table/cats">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.jspx" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/templates/base-layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -859,32 +713,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-          </folding>
+    <entry file="das://025cae42-245d-4d33-8afe-a50c326367f9/schema/fdmcv2_db/table/cats">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/AllCatsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -903,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/service/CatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="447">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -911,105 +767,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/CatServiceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/service/AllCatsServiceModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
             <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/ValidatorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.management/javax/management/ObjectName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="553" selection-start-line="553" selection-end-line="553" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/view/AllCatsViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/AllCatsBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/web/mbcat/CreateCatBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="464">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="119" column="52" lean-forward="true" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/all-cats.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="226">
+          <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
         </state>
       </provider>
     </entry>

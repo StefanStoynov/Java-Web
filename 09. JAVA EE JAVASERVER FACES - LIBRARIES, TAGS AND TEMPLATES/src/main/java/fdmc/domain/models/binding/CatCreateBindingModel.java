@@ -1,5 +1,10 @@
 package fdmc.domain.models.binding;
 
+import javax.persistence.ManyToOne;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -15,11 +20,11 @@ public class CatCreateBindingModel {
 
     public CatCreateBindingModel() {
     }
-
+    @Size(min = 2, max = 10)
     public String getName() {
         return this.name;
     }
-
+    @Size(min = 5, max = 20)
     public String getBreed() {
         return this.breed;
     }
@@ -27,7 +32,8 @@ public class CatCreateBindingModel {
     public String getColor() {
         return this.color;
     }
-
+    @Min(1)
+    @Max(31)
     public Integer getAge() {
         return this.age;
     }
@@ -35,7 +41,7 @@ public class CatCreateBindingModel {
     public String getGender() {
         return this.gender;
     }
-
+    @DecimalMin("0.01")
     public BigDecimal getPrice() {
         return this.price;
     }

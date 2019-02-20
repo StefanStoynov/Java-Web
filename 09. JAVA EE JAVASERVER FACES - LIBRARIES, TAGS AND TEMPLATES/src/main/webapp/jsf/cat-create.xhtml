@@ -33,7 +33,9 @@
                                     requiredMessage="Cat name is required!"
                                     class="form-control"
                                     value="#{createCatBean.catCreateBindingModel.name}"
-                            />
+                            >
+                                <f:validateLength minimum="2" maximum="10" />
+                            </h:inputText>
                         </div>
                     </div>
                 </div>
@@ -42,11 +44,14 @@
                         <div class="form-group">
                             <h:outputLabel for="catBreedInput">Breed</h:outputLabel>
                             <h:inputText
-                                id="catBreedInput"
-                                required="true"
-                                class="form-control"
-                                value="#{createCatBean.catCreateBindingModel.breed}"
-                            />
+                                    id="catBreedInput"
+                                    required="true"
+                                    class="form-control"
+                                    value="#{createCatBean.catCreateBindingModel.breed}"
+                                    requiredMessage="Cat breed length shoud be between 5 and 20 characters"
+                            >
+                                <f:validateLength minimum="5" maximum="20" />
+                            </h:inputText>
                         </div>
                     </div>
                 </div>
@@ -55,9 +60,9 @@
                         <div class="form-group">
                             <h:outputLabel for="catColorInput">Color</h:outputLabel>
                             <h:inputText
-                                id="catColorInput"
-                                class="form-control"
-                                value="#{createCatBean.catCreateBindingModel.color}"
+                                    id="catColorInput"
+                                    class="form-control"
+                                    value="#{createCatBean.catCreateBindingModel.color}"
                             />
                         </div>
                     </div>
@@ -67,22 +72,29 @@
                         <div class="form-group">
                             <h:outputLabel for="catAgeInput">Age</h:outputLabel>
                             <p:inputNumber
-                                id="catAgeInput"
-                                class="form-control"
-                                value="#{createCatBean.catCreateBindingModel.age}"
-                            />
+                                    id="catAgeInput"
+                                    class="form-control"
+                                    value="#{createCatBean.catCreateBindingModel.age}"
+                            >
+                                <f:validateLongRange minimum="1" maximum="31"/>
+                                <h:message for="catAgeInput" style="color:red">
+                                </h:message>
+                            </p:inputNumber>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-center">
                         <div class="form-group">
-                        <h:outputLabel for="catPriceInput">Price</h:outputLabel>
+                            <h:outputLabel for="catPriceInput">Price</h:outputLabel>
                             <p:inputNumber
-                                id="catPriceInput"
-                                class="form-control"
-                                value="#{createCatBean.catCreateBindingModel.price}"
-                            />
+                                    id="catPriceInput"
+                                    class="form-control"
+                                    value="#{createCatBean.catCreateBindingModel.price}"
+                                    requiredMessage="Price shoud be at least 0.01"
+                            >
+                                <f:validateDoubleRange minimum="0.01"/>
+                            </p:inputNumber>
                         </div>
                     </div>
                 </div>
@@ -91,8 +103,8 @@
                     <div class="col-md-12 d-flex justify-content-center">
                         <h:selectOneRadio class="mr-4" value="#{createCatBean.catCreateBindingModel.gender}">
                             <h:outputText value="Gender" class="mr-4"/>
-                            <f:selectItem itemValue="male"  itemLabel="Male" />
-                            <f:selectItem itemValue="female"  itemLabel="Female" />
+                            <f:selectItem itemValue="male" itemLabel="Male"/>
+                            <f:selectItem itemValue="female" itemLabel="Female"/>
                         </h:selectOneRadio>
                     </div>
                 </div>
@@ -111,7 +123,9 @@
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-center">
                         <div class="form-group">
-                            <p:calendar for="catAddedOnInput" pattern="yyyy/MM/dd" value="#{createCatBean.catCreateBindingModel.addedOn}">Added On
+                            <h:outputText value="Added on"/>
+                            <p:calendar id="button" value="#{createCatBean.catCreateBindingModel.addedOn}"
+                                        showOn="button">
                             </p:calendar>
                             <script id="catAddedOnInput_s" type="text/javascript">$(function () {
                                 PrimeFaces.cw("Calendar", "widget_j_id_p_catAddedOnInput", {
