@@ -6,11 +6,7 @@ import java.time.LocalDateTime;
 
 @Entity(name = "receipts")
 public class Receipt extends BaseEntity{
-    //•	Has an Id – a UUID String or an Integer.
-    //•	Has a Fee – a decimal number.
-    //•	Has an Issued On – a LocalDateTime object.
-    //•	Has a Recipient – a User object.
-    //•	Has a Package – a Package object.
+
     private BigDecimal fee;
     private LocalDateTime issuedOn;
     private User recipient;

@@ -8,13 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e0699cb-8274-4394-9320-c8f6d780d91a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../07. WORKSHOP JAVA EE SERVLETS + JSP + JPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07. WORKSHOP JAVA EE SERVLETS + JSP + JPA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/025cae42-245d-4d33-8afe-a50c326367f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/025cae42-245d-4d33-8afe-a50c326367f9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/domain/entities/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fdmc/domain/models/binding/CatCreateBindingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/cat-create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fluffyduffycatsv2-1.0-SNAPSHOT/jsf/cat-create.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10. WORKSHOP JAVA EE JSF + JPA/src/main/java/panda/domain/entities/Package.java" afterDir="false" />
@@ -66,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
+            <state relative-caret-position="124">
+              <caret line="88" column="60" lean-forward="true" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -433,7 +426,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550679428159" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550680180819" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -553,15 +546,15 @@
       <option name="presentableId" value="Default" />
       <updated>1550320110477</updated>
       <workItem from="1550320112414" duration="25034000" />
-      <workItem from="1550504823998" duration="5286000" />
+      <workItem from="1550504823998" duration="6386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30320000" />
+    <option name="totallyTimeSpent" value="31420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -584,7 +577,7 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -869,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/cat-create.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
+        <state relative-caret-position="124">
+          <caret line="88" column="60" lean-forward="true" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -5,10 +5,7 @@ import javax.persistence.Entity;
 
 @Entity(name = "users")
 public class User extends BaseEntity {
-    //•	Has an Username
-    //•	Has a Password
-    //•	Has an Email
-    //•	Has an Role – can be one of the following values (“User”, “Admin”)
+
     private String username;
     private String password;
     private String email;
