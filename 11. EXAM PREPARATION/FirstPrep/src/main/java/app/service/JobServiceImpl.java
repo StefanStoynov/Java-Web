@@ -40,4 +40,16 @@ public class JobServiceImpl implements JobService {
                 .collect(Collectors.toList());
         return jobs;
     }
+
+    @Override
+    public JobServiceModel getJobById(String id) {
+        Job job = this.jobRepository.findById(id);
+
+        return this.modelMapper.map(job, JobServiceModel.class);
+    }
+
+    @Override
+    public void delete(String id) {
+        this.jobRepository.delete(id);
+    }
 }

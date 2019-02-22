@@ -32,7 +32,7 @@ public class JobRepositoryImpl implements JobRepository {
     @Override
     public List<Job> findAll() {
         this.entityManager.getTransaction().begin();
-        List<Job>jobs = this.entityManager.createQuery("SELECT j FROM jobs j",Job.class).getResultList();
+        List<Job>jobs = this.entityManager.createQuery("SELECT j FROM Job j",Job.class).getResultList();
         this.entityManager.getTransaction().commit();
         return jobs;
     }
@@ -42,7 +42,7 @@ public class JobRepositoryImpl implements JobRepository {
         this.entityManager.getTransaction().begin();
         try {
             Job job = this.entityManager
-                    .createQuery("SELECT j FROM jobs j WHERE j.id = :id", Job.class)
+                    .createQuery("SELECT j FROM Job j WHERE j.id = :id", Job.class)
                     .setParameter("id", id
                     ).getSingleResult();
             this.entityManager.getTransaction().commit();
@@ -53,5 +53,12 @@ public class JobRepositoryImpl implements JobRepository {
             return null;
         }
 
+    }
+
+    @Override
+    public void delete(String id) {
+        this.entityManager.getTransaction().begin();
+        this.entityManager.createQuery("DELETE FROM Job j WHERE j.id = :id").setParameter("id",id).executeUpdate();
+        this.entityManager.getTransaction().commit();
     }
 }

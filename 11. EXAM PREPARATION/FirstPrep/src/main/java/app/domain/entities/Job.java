@@ -2,9 +2,11 @@ package app.domain.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.math.BigDecimal;
 
-@Entity(name = "jobs")
+@Entity
+@Table(name= "jobs")
 public class Job extends BaseEntity {
     private String sector;
     private String profession;

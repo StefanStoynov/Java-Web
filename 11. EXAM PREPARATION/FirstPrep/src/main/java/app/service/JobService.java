@@ -8,4 +8,8 @@ public interface JobService {
     boolean registerJob(JobServiceModel jobServiceModel);
 
     List<JobServiceModel> findAll();
+
+    JobServiceModel getJobById(String id);
+
+    void delete(String id);
 }
