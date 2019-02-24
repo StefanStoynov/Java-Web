@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <main class="mt-3">
+            <hr class="bg-exodia hr-2"/>
+            <h1 class="text-center text-exodia">Document - 904c7416-35d2-11e9-b210-d663bd873d93</h1>
+            <hr class="bg-exodia hr-2 w-75"/>
+            <h:form class="mx-auto w-75">
+                <div class="form-group">
+                    <div class="label-center d-flex justify-content-center">
+                        <h:outputLabel for="title" class="text-exodia h3" value="Ttitle"/>
+                    </div>
+                    <h:inputText type="text" class="form-control" id="title"  name="title" value="#{documentPrintBean.getDocument(request.getParameter('id')).title}" disabled="true" />
+                </div>
+                <div class="form-group">
+                    <div class="label-center d-flex justify-content-center">
+                        <label for="content" class="text-exodia h3">Content</label>
+                    </div>
+                    <h:inputTextarea class="form-control" id="content" name="content" rows="10" value="#{documentPrintBean.getDocument(request.getParameter('id')).content}" disabled="true" />
+                </div>
+                <hr class="bg-exodia hr-2"/>
+                <div class="button-holder d-flex justify-content-center">
+                    <input type="hidden" value="${documentPrintBean.getDocument(request.getParameter('id')).id}" name="id"/>
+                    <h:commandButton type="submit" class="btn bg-exodia text-white" value="Print" action="#{documentPrintBean.print}"/>
+                </div>
+            </h:form>
+            <hr class="bg-exodia hr-2 mt-5"/>
+        </main>
+    </ui:define>
+</ui:composition>
+</html>
